@@ -8,11 +8,11 @@ endif
 include $(BASE_DIR)/applications/common_apps.mk
 
 # Declare name of application(s) to generate
-APPLICATIONS := hello
+APPLICATIONS := ta_hello
 
-hello_SOURCES := hello.c
-hello_METADATA := hello.metadata
-hello_LIBS :=
+ta_hello_SOURCES := hello.c
+ta_hello_METADATA := hello.metadata
+ta_hello_LIBS :=
 
 # Last line of your Makefile !
 include $(BASE_DIR)/applications/rules_apps.mk
